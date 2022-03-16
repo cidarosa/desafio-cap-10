@@ -1,0 +1,34 @@
+.login-card {
+  padding: 20px;
+  font-size: 16px;
+}
+
+.login-card h1 {
+  font-size: 2.5em;
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.login-card input:focus {
+  color: #000;
+  background: #fefefe;
+}
+.login-card input:not(:focus) {
+  color: #000;
+  background: #fefefe;
+}
+.login-submit {
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+
+@media (min-width: 576px) {
+  .login-card {
+    padding: 50px;
+  }
+}

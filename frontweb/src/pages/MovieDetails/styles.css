@@ -1,0 +1,27 @@
+.movie-details-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;   
+}
+
+.movie-details-container h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* .movie-form-card{ */
+    /* color: #fff; */
+    /* border: 1px solid blue; */
+/* } */
+.movie-title-container {
+    color: #fff;
+}
+
+@media (min-width: 1200px) {
+    .movie-details-container h1{
+        margin-bottom: 40px;
+        font-size: 48px;
+    }
+}

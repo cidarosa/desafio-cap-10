@@ -1,0 +1,33 @@
+.movies-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 15px;
+}
+
+.movies-title-container h1 {
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.movie-link a {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.movie-link a:hover {
+  color: #fff;
+}
+
+.movie-link a.active {
+  color: #fff;
+  font-weight: bold;
+}
+
+@media (min-width: 1200px) {
+  .movies-title-container h1 {
+    font-size: 48px;
+  }
+
+}

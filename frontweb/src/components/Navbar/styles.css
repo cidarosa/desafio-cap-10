@@ -1,0 +1,13 @@
+.nav-logo-text {
+  color: #000;
+}
+
+.nav-logo-text:hover {
+  color: #000;
+}
+
+.btn-exit {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  width: 100px;
+}
